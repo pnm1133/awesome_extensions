@@ -155,11 +155,17 @@ extension ThemeExt on BuildContext {
   /// performs a simple [Theme.of(context).primaryColor] action and returns given [primaryColor]
   Color get primaryColor => Theme.of(this).primaryColor;
 
+  Color get onPrimaryColor => Theme.of(this).colorScheme.onPrimary;
+
   /// A darker version of the [primaryColor].
   Color get primaryColorDark => Theme.of(this).primaryColorDark;
 
+  Color get onPrimaryColorDark => Theme.of(this).colorScheme.onPrimary;
+
   /// A lighter version of the [primaryColor].
   Color get primaryColorLight => Theme.of(this).primaryColorLight;
+
+  Color get onPrimaryColorLight => Theme.of(this).colorScheme.onPrimary;
 
   /// performs a simple [Theme.of(context).primaryTextTheme] action and returns given [primaryTextTheme]
   TextTheme get primaryTextTheme => Theme.of(this).primaryTextTheme;
