@@ -167,6 +167,22 @@ extension ThemeExt on BuildContext {
 
   Color get onPrimaryColorLight => Theme.of(this).colorScheme.onPrimary;
 
+  Color get surfaceColor => Theme.of(this).colorScheme.surface;
+
+  Color get onSurfaceColor => Theme.of(this).colorScheme.onSurface;
+
+  Color get errorColor => Theme.of(this).colorScheme.error;
+
+  Color get onErrorColor => Theme.of(this).colorScheme.onError;
+
+  Color get secondaryColor => Theme.of(this).colorScheme.secondary;
+
+  Color get onSecondaryColor => Theme.of(this).colorScheme.onSecondary;
+
+  Color get onBackgroundColor => Theme.of(this).colorScheme.onBackground;
+
+  Color get outlineColor => Theme.of(this).colorScheme.onBackground;
+
   /// performs a simple [Theme.of(context).primaryTextTheme] action and returns given [primaryTextTheme]
   TextTheme get primaryTextTheme => Theme.of(this).primaryTextTheme;
 
