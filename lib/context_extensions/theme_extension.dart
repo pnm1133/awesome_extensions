@@ -167,6 +167,10 @@ extension ThemeExt on BuildContext {
 
   Color get onPrimaryColorLight => Theme.of(this).colorScheme.onPrimary;
 
+  Color get onPrimaryContainerColor => Theme.of(this).colorScheme.onPrimaryContainer;
+
+  Color get primaryContainerColor => Theme.of(this).colorScheme.primaryContainer;
+
   Color get surfaceColor => Theme.of(this).colorScheme.surface;
 
   Color get onSurfaceColor => Theme.of(this).colorScheme.onSurface;

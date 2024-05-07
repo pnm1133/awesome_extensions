@@ -8,6 +8,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
+import 'src/app_colors.dart';
+
 export 'package:awesome_extensions/src/platform.dart';
 export 'package:awesome_extensions/src/url_strategy.dart';
 export 'package:awesome_extensions/src/widgets/avatar_image.dart';
@@ -15,6 +17,7 @@ export 'package:awesome_extensions/src/widgets/avatar_image.dart';
 part 'async_extensions/async_snapshot_extension.dart';
 part 'color_extensions/color_extension.dart';
 part 'context_extensions/dialog_extension.dart';
+part 'context_extensions/app_theme_style.dart';
 part 'context_extensions/media_query_extension.dart';
 part 'context_extensions/navigation_extension.dart';
 part 'context_extensions/snackbar_extension.dart';
