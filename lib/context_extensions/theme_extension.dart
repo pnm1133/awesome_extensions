@@ -216,4 +216,5 @@ extension ThemeExt on BuildContext {
   /// Titles are smaller than headline styles and should be used for shorter,
   /// medium-emphasis text.
   TextStyle? get titleSmall => textTheme.titleSmall;
+
 }

@@ -1,6 +1,8 @@
 import 'package:awesome_extensions/awesome_extensions.dart';
 import 'package:flutter/material.dart';
 
+/// AppColors is a class that provides a set of colors that are used in the app.
+/// It is used to provide a consistent color scheme throughout the app.
 class AppColors {
   late final ThemeData _themeData;
 
@@ -12,11 +14,11 @@ class AppColors {
 
   Color get primaryDarker => primary.darken(20);
 
-  Color get primary => _themeData.colorScheme.primary;
-
   Color get primaryLightest => primary.lighten(30);
 
   Color get primaryLighter => primary.lighten(10);
+
+  Color get primary => _themeData.colorScheme.primary;
 
   Color get onPrimary => _themeData.colorScheme.onPrimary;
 
@@ -58,13 +60,23 @@ class AppColors {
 
   Color get onSecondary => _themeData.colorScheme.onSecondary;
 
+  Color get neutral => _themeData.colorScheme.surface.darken(90);
+
   Color get outline => _themeData.colorScheme.outline;
 
-  Color get disable => const Color(0xFFBDBDBD);
+  Color get disable => _themeData.colorScheme.outline.withOpacity(0.5);
+
+  Color get tertiary => _themeData.colorScheme.tertiary;
+
+  Color get onTertiary => _themeData.colorScheme.onTertiary;
+
+  Color get tertiaryContainer => _themeData.colorScheme.tertiaryContainer;
 
   Color get shadow => const Color(0xFFE0E0E0);
 }
 
+/// AppTextStyles is a class that provides a set of text styles that are used in the app.
+/// It is used to provide a consistent text style throughout the app.
 class AppTextStyles {
   late final ThemeData _themeData;
 
